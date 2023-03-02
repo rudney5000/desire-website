@@ -57,6 +57,13 @@ body {
     height: 100%;
 }
 
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -84,19 +91,32 @@ body {
     height: 120px;
 }
 
+.header__btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
 .logo {
     margin: 0 auto;
 }
 
 .menu {
-    padding-left: 35px;
-    padding-right: 60px;
+    padding-right: 15px;
 }
 
 .menu__list {
     display: flex;
 }
 
-.menu__list-item + .menu__list-item {
-    padding-left: 80px;
+.menu__list-item {
+    padding-left: 35px;
+    padding-right: 45px;
+}
+
+.menu__list-link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: rgba(54, 56, 56, 0.9);
+    line-height: 22px;
 }
