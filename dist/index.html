@@ -9,62 +9,125 @@
 <body>
     <!DOCTYPE html>
     <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Desire</title>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="assets/css/style.min.css">
-    </head>
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Desire</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.min.css" />
+      </head>
     
-    <body>
+      <body>
+        <div class="wrapper">
+          <header class="header">
+            <div class="container">
+              <div class="header__inner">
+                <nav class="menu">
+                  <ul class="menu__list">
+                    <li class="menu__list-item">
+                      <a class="menu__list-link" href="#">About</a>
+                    </li>
+                    <li class="menu__list-item">
+                      <a class="menu__list-link" href="#">Gallery</a>
+                    </li>
+                  </ul>
+                </nav>
+                <a class="logo" href="#">
+                  <img src="assets/images/logo.png" alt="logo" />
+                </a>
+                <nav>
+                  <ul class="menu__list">
+                    <li class="menu__list-item">
+                      <a class="menu__list-link" href="#">Blog</a>
+                    </li>
+                    <li class="menu__list-item">
+                      <a class="menu__list-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
+                <button class="header__btn">
+                  <img src="assets/images/icon_menu.svg" alt="icon menu" />
+                </button>
+                <div class="rghtside-menu">
+                    
+                </div>
+              </div>
+            </div>
+          </header>
     
-      <header class="header">
-        <div class="container">
-          <div class="header__inner">
-            <nav class="menu">
-              <ul class="menu__list">
-                <li class="menu__list-item">
-                  <a class="menu__list-link" href="#">About</a>
-                </li>
-                <li class="menu__list-item">
-                  <a class="menu__list-link" href="#">Gallery</a>
-                </li>
-              </ul>
-            </nav>
-              <a class="logo" href="#">
-                <img src="assets/images/logo.png" alt="logo">
-              </a>
-            <nav>
-              <ul class="menu__list">
-                <li class="menu__list-item">
-                  <a class="menu__list-link" href="#">Blog</a>
-                </li>
-                <li class="menu__list-item">
-                  <a class="menu__list-link" href="#">Contact</a>
-                </li>
-              </ul>
-            </nav>
-            <button class="header__btn">
-              <img src="assets/images/icon_menu.svg" alt="icon menu">
-            </button>
-          </div>
+          <main class="main"></main>
+          <footer class="footer">
+            <div class="footer__content">
+              <div class="container">
+                <div class="footer__inner">
+                  <div class="footer__info">
+                    <h6 class="footer__info-title">Contact US</h6>
+                    <p class="footer__info-text">
+                      Keffiyeh poutine etsy, paleo cray put a bird on it microdosing
+                      schlitz you probably occupy
+                    </p>
+                    <a
+                      href="mailto:ouremailaddress@email.com"
+                      class="footer__info-email"
+                    >
+                      ouremailaddress@email.com
+                    </a>
+                    <form action="" class="footer__form">
+                      <input type="email" class="footer__form-input" placeholder="Subscribe by email"/>
+                      <button class="footer__form-button" type="submit">
+                        Send
+                      </button>
+                    </form>
+                  </div>
+                  <ul class="footer__social">
+                    <li class="footer__social-item">
+                      <a href="#" class="footer__social-link footer__social-link--facebook">Facebook</a>
+                    </li>
+                    <li class="footer__social-item">
+                      <a href="#" class="footer__social-link footer__social-link--instagram">Instagram</a>
+                    </li>
+                    <li class="footer__social-item">
+                      <a href="#" class="footer__social-link footer__social-link--pinterest">Pinterest</a>
+                    </li>
+                    <li class="footer__social-item">
+                      <a href="#" class="footer__social-link footer__social-link--whatsapp">WhatsApp</a>
+                    </li>
+                    <li class="footer__social-item">
+                      <a href="#" class="footer__social-link footer__social-link--youtube">Youtube</a>
+                    </li>
+                  </ul>
+                  <nav class="footer__menu">
+                    <ul class="footer__menu-list">
+                      <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Delivery</a>
+                      </li>
+                      <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">FAQ</a>
+                      </li>
+                      <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Help</a>
+                      </li>
+                      <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">More About Us</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="footer__copyright">
+                <div class="container">
+                    <p>674 Gonzales Drive, Washington, PA 15301</p>
+                </div>
+            </div>
+          </footer>
         </div>
-      </header>
-      <div class="wrapper">
-        <main class="main"></main>
-        <footer class="footer">
-            
-        </footer>
-      </div>
     
-    
-    
-      <script src="assets/js/main.min.js"></script>
-    </body>
-    
+        <script src="assets/js/main.min.js"></script>
+      </body>
     </html>
+    
 </body>
 </html>
